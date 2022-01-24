@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Barre de navigation */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:#ffffff;
+    
+    top: 0;
+    
+}
+
+/* TITRE CATEGORIE */
+
+.categoriex {
+
+   margin-top: 70px;
+   margin-left: auto;
+   margin-right: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(128, 128, 128); padding: 5px; 
+width: 12%;
+}
+
+
+
+
+
+
+/* logo */
+
+.ecommerce {
+    height: 150px;
+    width: 150px;
+}
+
+nav .onglets {
+    transform: translate(-60%,30%);
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+nav .onglets  p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #cfcfcf;
+}
+
+
+/* LOGO YOUTUBE */
+
+.twiter {
+    transform: translate(-1000%,-150%);
+    height: 40px;
+    width: 40px;
+}
+
+.fb {
+    transform: translate(-1000%,-150%);
+    height: 40px;
+    width: 40px;
+}
+
+.youtube {transform: translate(-1000%,-150%);
+     height: 40px;
+width: 40px;}
+
+.header {
+    width: 75%;
+    height:500PX;
+    transform: translate(17%);
+}
+
+/* section principale */
+
+.main {
+    background-color: rgb(253, 253, 253);
+    margin : 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* toute les cartes */
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+}
+
+.cards .card {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.images {
+    width: 350px;
+}
+
+.cards .card .card-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* fin des cartes /*
+/* FIN DE LE SECTION */
+
+
+
